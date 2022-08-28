@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heo Suji Portfolio</title>
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/mideaQuery.css">
+
+    <link rel="icon" href="./images/common/favi.ico">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script src="./js/portfolio_jQuery.js"></script>
+    <script src="./js/blob.js"></script>
+    <script src="./js/portfolio_Javascript.js"></script>
+
+</head>
+
+<body>
+
+    <nav id="navi_wrap">
+        <h1 class="hide">MENU</h1>
+        <ul class="navi_menu">
+            <li class="menu1 on">HOME</li>
+            <li class="menu2">PROFILE</li>
+            <li class="menu3">ABOUT ME</li>
+            <li class="menu4">PROJECT</li>
+            <li class="menu5">STORY</li>
+        </ul>
+    </nav><!-- 고정네비 -->
+
+    <div class="project_pop">
+        <button class="close">닫기</button>
+
+        <div class="project_popup">
+            <div class="card">
+                PROJECT NAME: <span class="name">EMONS</span>
+            </div>
+
+            <div class="project_contents">
+                <div class="introduce_box">
+                    <div class="project_comment">
+                        <p class="introduce_title">Introduce</p>
+                        <div class="introduce_text">
+                            <p class="introduce_text_big">
+                                미디어 쿼리를 사용한<br>
+                                첫 반응형 웹입니다!
+                            </p>
+                            레이아웃이 다소 복잡해보였던 기존 사이트를 <br>
+                            피그마툴을 사용하여 새롭게 디자인하였고 <br>
+                            웹표준성과 웹접근성에 맞게 <br>
+                            태블릿(768px)과 모바일(375px)에서도 <br>
+                            구현될수 있도록 미디어 쿼리를 적용한 <br>
+                            첫번째 개인 프로젝트입니다. <br>
+                            <span class="days">● Design: 5 days</span>
+                            <span class="days">● Web publishing: 10 days</span>
+                            <div class="page_box">
+                                <a href="./project/에몬스/Emons_1.html" target="_blank">main</a>
+                                <a href="./project/에몬스/Board.html" target="_blank">sub1</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="emons_down_box">
+                            <p class="down_title">● THIS PROJECT DOWNLOAD
+                                <span class="arrow">↓</span>
+                            </p>
+                            <a class="emons_down" href="./project/사이트 리뉴얼 기획안_허수지.pdf" target="_blank">
+                                <img src="./images/main/PowerPoint_icon.png" width="32" height="32" alt="ppt 아이콘">
+                            </a>
+                            <a class="emons_down" href="./project/에몬스_허수지.fig" download>
+                                <img src="./images/main/figma_icon.png" width="32" height="32" alt="피그마 아이콘">
+                            </a>
+                            <a class="emons_down" href="./project/에몬스.zip" download>
+                                <img src="./images/svg/zip.svg" width="30" height="30" alt="알집 아이콘">
+                            </a>
+                            <a class="emons_down" href="#" download>
+                                <img src="./images/main/git.png" width="30" height="30" alt="깃허브 아이콘">
+                            </a>
+                        </div>
+
+                        <div class="w3c_box">
+                            <div class="w3c_title">
+                                ●
+                                <img src="./images/main/w3c.png" width="35" alt="w3c">
+                                PASS
+                            </div>
+                        </div>
+                        <div class="open_browser">
+                            <ul>
+                                <li>
+                                    <img src="./images/main/Google_Chrome_icon.png" width="30" height="30"
+                                        alt="구글크롬 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/edge_icon.png" width="30" height="30" alt="엣지 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Firefox_logo.png" width="30" height="30" alt="파이어폭스 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Opera_icon.png" width="30" height="30" alt="오페라 아이콘">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="emons">
+                    <ul class="emons_ul">
+                        <li class="emons_li">
+                            <a href="./project/에몬스/Emons_1.html" target="_blank" class="emons_li_a">
+                                <img src="./images/main/Emons.png" width="700" alt="에몬스 메인 이미지">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- 에몬스 -->
+
+    <div class="project_pop2">
+        <button class="close2">닫기</button>
+        <div class="project_popup2">
+            <div class="card2">
+                PROJECT NAME: <span class="name2">안양도시공사</span>
+            </div>
+
+            <div class="project_contents2">
+                <div class="introduce_box2">
+                    <div class="project_comment2">
+                        <p class="introduce_title">Introduce</p>
+                        <div class="introduce_text">
+                            <p class="introduce_text_big">
+                                FLEX를 사용한<br>
+                                관공서 사이트 입니다!
+                            </p>
+                            평소 해당 사이트를 사용해왔던 유저로써<br>
+                            레이아웃과 가독성 등을 개선하고자<br>
+                            두번째 개인 프로젝트로 리뉴얼하게 되었습니다.<br>
+                            처음 FLEX를 사용해보니 position이나 float보다<br>
+                            레이아웃을 잡기 편리하였고<br>
+                            특히 마크업이 된 순서와 상관없이<br>
+                            요소의 위치를 설정할 수 있다는 점이 매우 좋았습니다.
+                            <br>
+
+                            <span class="days">● Design: 3 days</span>
+                            <span class="days">● Web publishing: 12 days</span>
+                            <div class="page_box">
+                                <a href="./project/안양도시공사/index(main).html" target="_blank">main</a>
+                                <a href="./project/안양도시공사/sub1.html" target="_blank">sub1</a>
+                                <a href="./project/안양도시공사/sub2.html" target="_blank">sub2</a>
+                                <a href="./project/안양도시공사/sub3.html" target="_blank">sub3</a>
+                                <a href="./project/안양도시공사/login.html" target="_blank">sub4</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="auc_down_box">
+                            <p class="down_title">● THIS PROJECT DOWNLOAD
+                                <span class="arrow">↓</span>
+                            </p>
+                            <a class="auc_down" href="./project/안양도시공사.zip" download>
+                                <img src="./images/svg/zip.svg" width="30" height="30" alt="알집 아이콘">
+                            </a>
+                            <a class="auc_down" href="#" download>
+                                <img src="./images/main/git.png" width="30" height="30" alt="깃허브 아이콘">
+                            </a>
+                        </div>
+
+                        <div class="w3c_box">
+                            <div class="w3c_title">●
+                                <img src="./images/main/w3c.png" width="35" alt="w3c">
+                                PASS
+                            </div>
+                        </div>
+                        <div class="open_browser">
+                            <ul>
+                                <li>
+                                    <img src="./images/main/Google_Chrome_icon.png" width="30" height="30"
+                                        alt="구글크롬 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/edge_icon.png" width="30" height="30" alt="엣지 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Firefox_logo.png" width="30" height="30" alt="파이어폭스 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Opera_icon.png" width="30" height="30" alt="오페라 아이콘">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="auc">
+                    <ul class="auc_ul">
+                        <li class="auc_li">
+                            <a href="./project/안양도시공사/index(main).html" target="_blank" class="auc_li_a">
+                                <img src="./images/main/A.U.C.png" width="720" alt="안양도시공사 메인 이미지">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- 안양도시공사 -->
+
+    <div class="project_pop3">
+        <button class="close3">닫기</button>
+        <div class="project_popup3">
+            <div class="card3">
+                PROJECT NAME: <span class="name3">SOCAR</span>
+            </div>
+            <div class="project_contents3">
+                <div class="introduce_box3">
+                    <div class="project_comment3">
+                        <p class="introduce_title">Introduce</p>
+                        <div class="introduce_text">
+                            <p class="introduce_text_big">
+                                DB를 활용한<br>
+                                PHP 사이트 입니다!
+                            </p>
+                            로그인, 회원가입, 게시판 페이지를<br>
+                            DB를 활용하여 PHP로 제작한
+                            개인 프로젝트입니다. <br>
+                            <br>
+
+                            <span class="days">● Design: 1 days</span>
+                            <span class="days">● Web publishing: 7 days</span>
+                            <div class="page_box">
+                                <a href="http://hsj1021.dothome.co.kr/project_login_ex/index.php"
+                                    target="_blank">main</a>
+                                <a href="http://hsj1021.dothome.co.kr/project_login_ex/login_form.php"
+                                    target="_blank">sub1</a>
+                                <a href="http://hsj1021.dothome.co.kr/project_login_ex/member_form.php"
+                                    target="_blank">sub2</a>
+                                <a href="http://hsj1021.dothome.co.kr/project_login_ex/board_list.php"
+                                    target="_blank">sub3</a>
+                                <a href="http://hsj1021.dothome.co.kr/project_login_ex/board_form.php"
+                                    target="_blank">sub4</a>
+                            </div>
+                        </div>
+
+
+                        <div class="socar_down_box">
+                            <p class="down_title">● THIS PROJECT DOWNLOAD
+                                <span class="arrow">↓</span>
+                            </p>
+                            <a class="socar_down" href="./project/안양도시공사.zip" download>
+                                <img src="./images/svg/zip.svg" width="30" height="30" alt="알집 아이콘">
+                            </a>
+                            <a class="socar_down" href="#" download>
+                                <img src="./images/main/git.png" width="30" height="30" alt="깃허브 아이콘">
+                            </a>
+                        </div>
+
+                        <div class="w3c_box">
+                            <div class="w3c_title">●
+                                <img src="./images/main/w3c.png" width="35" alt="w3c">
+                                PASS
+                            </div>
+                        </div>
+                        <div class="open_browser">
+                            <ul>
+                                <li>
+                                    <img src="./images/main/Google_Chrome_icon.png" width="30" height="30"
+                                        alt="구글크롬 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/edge_icon.png" width="30" height="30" alt="엣지 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Firefox_logo.png" width="30" height="30" alt="파이어폭스 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Opera_icon.png" width="30" height="30" alt="오페라 아이콘">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="socar">
+                    <ul class="socar_ul">
+                        <li class="socar_li">
+                            <a href="http://hsj1021.dothome.co.kr/project_login_ex/index.php" target="_blank"
+                                class="socar_li_a">
+                                <img src="./images/main/socar.png" width="1200" alt="쏘카 메인 이미지">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- 쏘카 -->
+
+    <div class="project_pop4">
+        <button class="close4">닫기</button>
+        <div class="project_popup4">
+            <div class="card4">
+                PROJECT NAME: <span class="name4">MoreMom</span>
+            </div>
+            <div class="project_contents4">
+                <div class="introduce_box4">
+                    <div class="project_comment4">
+                        <p class="introduce_title">Introduce</p>
+                        <div class="introduce_text">
+                            <p class="introduce_text_big">
+                                Vue.js를 사용하여<br>
+                                제작한 App 입니다!
+                            </p>
+                            Vue.js를 사용한 팀프로젝트
+                            Vue.js를 사용한 팀프로젝트
+                            Vue.js를 사용한 팀프로젝트
+                            Vue.js를 사용한 팀프로젝트
+                            Vue.js를 사용한 팀프로젝트
+                            Vue.js를 사용한 팀프로젝트
+
+                            <span class="days">● Design: 5 days</span>
+                            <span class="days">● Web publishing: 14 days</span>
+                            <div class="page_box">
+                                    <a href="./project/안양도시공사/index(main).html" target="_blank">main</a>
+                                    <a href="./project/안양도시공사/sub1.html" target="_blank">sub1</a>
+                                    <a href="./project/안양도시공사/sub2.html" target="_blank">sub2</a>
+                                    <a href="./project/안양도시공사/sub3.html" target="_blank">sub3</a>
+                                    <a href="./project/안양도시공사/login.html" target="_blank">sub4</a>
+                            </div>
+                        </div>
+                        <div class="auc_down_box">
+                            <p class="down_title">● THIS PROJECT DOWNLOAD
+                                <span class="arrow">↓</span>
+                            </p>
+                            <a class="auc_down" href="./project/안양도시공사.zip" download>
+                                <img src="./images/svg/zip.svg" width="30" height="30" alt="알집 아이콘">
+                            </a>
+                            <a class="auc_down" href="#" download>
+                                <img src="./images/main/git.png" width="30" height="30" alt="깃허브 아이콘">
+                            </a>
+                        </div>
+
+                        <div class="w3c_box">
+                            <div class="w3c_title">●
+                                <img src="./images/main/w3c.png" width="35" alt="w3c">
+                                PASS
+                            </div>
+                        </div>
+                        <div class="open_browser">
+                            <ul>
+                                <li>
+                                    <img src="./images/main/Google_Chrome_icon.png" width="30" height="30"
+                                        alt="구글크롬 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/edge_icon.png" width="30" height="30" alt="엣지 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Firefox_logo.png" width="30" height="30" alt="파이어폭스 아이콘">
+                                </li>
+                                <li>
+                                    <img src="./images/main/Opera_icon.png" width="30" height="30" alt="오페라 아이콘">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="auc">
+                    <ul class="auc_ul">
+                        <li class="auc_li">
+                            <a href="" target="_blank" class="auc_li_a">
+                                <img src="./images/main/moremom.png" width="720" alt="안양도시공사 메인 이미지">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- 모아맘 -->
+
+    <section id="main_wrap" class="main section_content">
+        <h3 class="hide">MAIN</h3>
+
+        <div class="main_contents">
+            <div class="main_inner">
+                <div class="main_blob1">
+                    <svg width="600" height="600" viewBox="0 0 660 660">
+                        <defs>
+                            <linearGradient id="main_gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#f3759b"></stop>
+                                <stop offset="100%" style="stop-color: #6600ff"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path id="main_blob1" fill="url(#main_gradient1)"></path>
+                    </svg>
+                </div>
+                <div class="main_blob2">
+                    <svg width="480" height="480" viewBox="0 0 480 830">
+                        <defs>
+                            <linearGradient id="main_gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#091e49"></stop>
+                                <stop offset="100%" style="stop-color: #8B79A9"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path id="main_blob2" fill="url(#main_gradient2)"></path>
+                    </svg>
+                </div>
+                <div class="main_blob3">
+                    <svg width="400" height="400" viewBox="0 0 580 930">
+                        <defs>
+                            <linearGradient id="main_gradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#1e177b"></stop>
+                                <stop offset="100%" style="stop-color: #9320c4"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path id="main_blob3" fill="url(#main_gradient3)"></path>
+                    </svg>
+                </div>
+                <div class="main_blob4">
+                    <svg width="250" height="250" viewBox="0 0 780 1230">
+                        <defs>
+                            <linearGradient id="main_gradient4" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#316080"></stop>
+                                <stop offset="100%" style="stop-color: #3f1979"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path id="main_blob4" fill="url(#main_gradient4)"></path>
+                    </svg>
+                </div>
+
+
+                <div class="main_text_box">
+                    <div class="hello"></div>
+                    <div class="m_works"></div>
+                    <div class="main_title1"></div>
+                    <div class="main_title2"></div>
+                    <div class="main_title3"></div>
+                </div>
+                <div class="scroll_down">
+                    <svg class="scroll_down_svg" width="80" height="80" viewBox="0 0 135 126" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path class="scroll_down_svg_path"
+                            d="M67.5 61.6875C66.7612 61.6883 66.0295 61.5528 65.3471 61.2888C64.6646 61.0248 64.0447 60.6376 63.5231 60.1493L46.6481 44.3993C45.6091 43.4118 45.03 42.0814 45.0367 40.6974C45.0434 39.3134 45.6354 37.9879 46.684 37.0092C47.7325 36.0306 49.1527 35.478 50.6355 35.4718C52.1184 35.4655 53.5439 36.006 54.6019 36.9758L67.5 49.0137L80.3981 36.9755C81.4552 36.0013 82.8822 35.4569 84.3678 35.4613C85.8533 35.4657 87.2767 36.0185 88.3271 36.9989C89.3775 37.9793 89.9697 39.3078 89.9743 40.6943C89.9789 42.0808 89.3957 43.4127 88.3519 44.3993L71.4769 60.1493C70.9552 60.6376 70.3354 61.0248 69.6529 61.2888C68.9704 61.5528 68.2388 61.6883 67.5 61.6875V61.6875ZM67.5 90.5625C66.7612 90.5633 66.0295 90.4278 65.3471 90.1638C64.6646 89.8998 64.0447 89.5126 63.5231 89.0243L46.6481 73.2743C45.6091 72.2868 45.03 70.9564 45.0367 69.5724C45.0434 68.1884 45.6354 66.8629 46.684 65.8842C47.7325 64.9056 49.1527 64.353 50.6355 64.3468C52.1184 64.3405 53.5439 64.881 54.6019 65.8508L67.5 77.8887L80.3981 65.8505C81.4552 64.8763 82.8822 64.3319 84.3678 64.3363C85.8533 64.3407 87.2767 64.8935 88.3271 65.8739C89.3775 66.8543 89.9697 68.1828 89.9743 69.5693C89.9789 70.9558 89.3957 72.2877 88.3519 73.2743L71.4769 89.0243C70.9552 89.5126 70.3354 89.8998 69.6529 90.1638C68.9704 90.4278 68.2388 90.5633 67.5 90.5625V90.5625Z"
+                            fill="#fff" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+        <div class="section_bg1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 110">
+                <path d="M 0 0 L 1920 0 L 960 110 Z" fill="#020817"></path>
+            </svg>
+
+        </div>
+
+    </section><!-- 메인 -->
+
+    <section id="profile_wrap" class="profileme section_content">
+        <h3 class="hide">PROFILE</h3>
+        <div class="profile_contents">
+            <div class="profile_inner">
+
+                <div class="profile_title">
+                    <span style="--index: 0; --alpha-l: 0.7; --alpha-u: 1;">P</span>
+                    <span style="--index: 1; --alpha-l: 0.7; --alpha-u: 1;">R</span>
+                    <span style="--index: 2; --alpha-l: 0.7; --alpha-u: 1;">O</span>
+                    <span style="--index: 3; --alpha-l: 0.7; --alpha-u: 1;">F</span>
+                    <span style="--index: 4; --alpha-l: 0.7; --alpha-u: 1;">I</span>
+                    <span style="--index: 5; --alpha-l: 0.7; --alpha-u: 1;">L</span>
+                    <span style="--index: 6; --alpha-l: 0.7; --alpha-u: 1;">E</span>
+                </div>
+                <div class="profile_img_box">
+                    <div class="profile_img_1">
+
+                        <img src="./images/main/profileIMG1.png" width="250" height="250" alt="프로필사진1">
+
+                    </div>
+                    <div class="profile_img_2">
+                        <img src="./images/main/profileIMG2.png" width="250" height="250" alt="프로필사진2">
+                    </div>
+                    <div class="profile_img_3">
+                        <img src="./images/main/profileIMG3.png" width="250" height="250" alt="프로필사진3">
+                    </div>
+                </div>
+
+                <div class="profile_text_flex">
+                    <div class="profile_text_box">
+                        <ul class="profile_text_ul">
+                            <li>이름: 허수지</li>
+                            <li>나이: 33세(만 31세)</li>
+                            <li>주소: 경기도 안양시 만안구</li>
+                            <li>이메일: ssujii0809@naver.com</li>
+                            <li>핸드폰: 010-7684-9019</li>
+                            <li>자격사항:</li>
+                            <li>2022년 03월 ~ 09월</li>
+                            <li class="green_logo_svg"></li>
+                            <li>웹디자인 &amp; 프론트엔드 개발</li>
+                            <li>디지털실무 양성과정 수료</li>
+                        </ul>
+                    </div>
+                    <div class="profile_skills">
+                        <div class="skills_wrap">
+                            <div class="progress_wrap">
+                                <ul>
+                                    <li>
+                                        <span class="progress_tit">HTML</span>
+                                        <div class="progress_cnt">
+                                            <span>90 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="html_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="progress_tit">CSS</span>
+                                        <div class="progress_cnt">
+                                            <span>85 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="css_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <span class="progress_tit">JAVASCRIPT</span>
+                                        <div class="progress_cnt">
+                                            <span>75 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="javascript_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="progress_tit">JQUERY</span>
+                                        <div class="progress_cnt">
+                                            <span>75 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="jquery_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <span class="progress_tit">VUE 3</span>
+                                        <div class="progress_cnt">
+                                            <span>70 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="vue_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="progress_tit">PHP</span>
+                                        <div class="progress_cnt">
+                                            <span>70 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="php_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <span class="progress_tit">PHOTOSHOP</span>
+                                        <div class="progress_cnt">
+                                            <span>75 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="photoshop_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="progress_tit">FIGMA</span>
+                                        <div class="progress_cnt">
+                                            <span>85 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="figma_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <span class="progress_tit">GITHUB</span>
+                                        <div class="progress_cnt">
+                                            <span>75 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="github_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="progress_tit">FIREBASE</span>
+                                        <div class="progress_cnt">
+                                            <span>75 / 100</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div id="firebase_bar" class="bar"></div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_bg2">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs" width="1920" height="150" preserveAspectRatio="none"
+                viewBox="0 0 1920 150">
+                <g mask="url(&quot;#SvgjsMask1042&quot;)" fill="none">
+                    <rect width="1920" height="150" x="0" y="0" fill="#f5f4fe"></rect>
+                    <path
+                        d="M 0,107 C 48,92.6 144,33.4 240,35 C 336,36.6 384,112.6 480,115 C 576,117.4 624,48.4 720,47 C 816,45.6 864,108.8 960,108 C 1056,107.2 1104,42.6 1200,43 C 1296,43.4 1344,109.8 1440,110 C 1536,110.2 1584,50.6 1680,44 C 1776,37.4 1872,70.4 1920,77L1920 150L0 150z"
+                        fill="#ffffff"></path>
+                </g>
+                <defs>
+                    <mask id="SvgjsMask1042">
+                        <rect width="1920" height="150" fill="#ffffff"></rect>
+                    </mask>
+                </defs>
+            </svg>
+
+        </div>
+
+    </section><!-- 프로필 -->
+
+    <section id="about_wrap" class="about section_content">
+        <h3 class="hide">ABOUT ME</h3>
+        <div class="about_contents">
+            <div class="about_inner">
+                <div class="about_title">
+                    <span style="--index: 0; --alpha-l: 0.7; --alpha-u: 1;">A</span>
+                    <span style="--index: 1; --alpha-l: 0.7; --alpha-u: 1;">B</span>
+                    <span style="--index: 2; --alpha-l: 0.7; --alpha-u: 1;">O</span>
+                    <span style="--index: 3; --alpha-l: 0.7; --alpha-u: 1;">U</span>
+                    <span style="--index: 4; --alpha-l: 0.7; --alpha-u: 1;">T</span>
+                    &nbsp;&nbsp;
+                    <span style="--index: 4; --alpha-l: 0.7; --alpha-u: 1;">M</span>
+                    <span style="--index: 4; --alpha-l: 0.7; --alpha-u: 1;">E</span>
+
+                </div>
+
+                <div class="about_text">
+                    <div class="about_text_title">
+                        <div class="track">
+                            <div class="track_content">
+                                Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;
+                            </div>
+                        </div>
+                    </div>
+                    <div class="git_icon_box">
+                        <div class="git_icon1"></div>
+                        <div class="git_icon2"></div>
+                        <div class="git_icon3"></div>
+                    </div>
+                    <div class="about_text_content">
+
+                        <div>
+                            <span># 노력하는 자세</span>
+                            <p>
+                                일 처리는 신중하고 꼼꼼하게 하되 <br>
+                                빠르게 실행하여 목표를 달성하고 <br>
+                                항상 성장하기 위해 노력합니다.<br>
+                            </p>
+                        </div>
+                        <div>
+                            <span># 배울려는 자세</span>
+                            <p>
+                                모르는 것들을 하나하나 배워가며<br>
+                                문제를 해결하고 <br>
+                                퍼블리싱 하는 것을 좋아합니다.<br>
+                            </p>
+                        </div>
+                        <div>
+                            <span> # 일할려는 자세</span>
+                            <p>
+                                개인 보다는 팀,<br>
+                                혹은 단체의 목표를 우선시하며<br>
+                                어떠한 상황에서도<br>
+                                융통성 있는 커뮤니케이션을<br>
+                                중요시합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about_text_title">
+                        <div class="track">
+                            <div class="track_content">
+                                Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf &nbsp;&nbsp;Introduce MySelf
+                                &nbsp;&nbsp;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="section_bg2-1">
+        </div>
+
+    </section><!-- 어바웃미 -->
+
+    <section id="project_wrap" class="project section_content">
+        <h3 class="hide">PROJECT</h3>
+
+        <div class="project_contents">
+            <div class="project_inner">
+                <div class="project_title">
+                    <span style="--index: 0; --alpha-l: 0.7; --alpha-u: 1;">P</span>
+                    <span style="--index: 1; --alpha-l: 0.7; --alpha-u: 1;">R</span>
+                    <span style="--index: 2; --alpha-l: 0.7; --alpha-u: 1;">O</span>
+                    <span style="--index: 3; --alpha-l: 0.7; --alpha-u: 1;">J</span>
+                    <span style="--index: 4; --alpha-l: 0.7; --alpha-u: 1;">E</span>
+                    <span style="--index: 5; --alpha-l: 0.7; --alpha-u: 1;">C</span>
+                    <span style="--index: 6; --alpha-l: 0.7; --alpha-u: 1;">T</span>
+                </div>
+
+                <div class="project_box">
+                    <div class="project_list">
+
+                        <div class="project_item1 item"></div>
+                        <div class="project_item2 item"></div>
+                        <div class="project_item3 item"></div>
+                        <div class="project_item4 item"></div>
+                    </div>
+                    <div class="project_list_bg"></div>
+
+                </div>
+                <div class="project_down">
+                    <div class="project_down_contents">
+                        <div class="down">
+                            <p class="down_text">Download Project All</p>
+
+                            <div class="down_icon">
+                                <ul>
+                                    <li>
+                                        <img src="./images/main/html.png" width="40" height="40" alt="html 로고 이미지">
+                                        <span>HTML</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/main/css.png" width="40" height="40" alt="css 로고 이미지">
+                                        <span>CSS</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/main/js.png" width="40" height="40" alt="js 로고 이미지">
+                                        <span>JS</span>
+                                    </li>
+                                    <li>
+                                        <img src="./images/main/php_logo.png" width="40" height="40" alt="php 로고 이미지">
+                                        <span>PHP</span>
+                                    </li>
+                                    <li>
+                                        <img class="logo_icon" src="./images/main/vue_logo.png" width="40" height="40"
+                                            alt="Vue 로고 이미지">
+                                        <span class="logo_span">Vue3</span>
+                                    </li>
+                                    <li>
+                                        <img class="logo_icon" src="./images/main/figma_icon.png" width="40" height="40"
+                                            alt="Figma 로고 이미지">
+                                        <span class="logo_span">Figma</span>
+                                    </li>
+                                    <li>
+                                        <img class="logo_icon" src="./images/main/git.png" width="40" height="40"
+                                            alt="GitHub 로고 이미지">
+                                        <span class="logo_span">GitHub</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <p class="down_file">
+                                <img src="./images/svg/zip.svg" width="22" height="27" alt="zip">
+                                <a href="#">
+                                    <!-- 수정 -->
+                                    <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 6L6 10L1 6" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                        </path>
+                                        <rect x="7" y="10" width="2" height="10" rx="1" transform="rotate(-180 7 10)"
+                                            fill="currentColor">
+                                        </rect>
+                                        <rect x="1" y="12" width="10" height="2" rx="1" fill="currentColor">
+                                        </rect>
+                                    </svg>
+                                    Download
+                                </a>
+                                <span>files.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section_bg3">
+        </div>
+    </section><!-- 프로젝트 -->
+
+    <section id="story_wrap" class="story section_content">
+        <h3 class="hide">STORY</h3>
+
+        <div class="story_contents">
+            <div class="story_inner">
+                <div class="story_title">
+                    <span style="--index: 0; --alpha-l: 0.7; --alpha-u: 1;">S</span>
+                    <span style="--index: 1; --alpha-l: 0.7; --alpha-u: 1;">T</span>
+                    <span style="--index: 2; --alpha-l: 0.7; --alpha-u: 1;">O</span>
+                    <span style="--index: 3; --alpha-l: 0.7; --alpha-u: 1;">R</span>
+                    <span style="--index: 4; --alpha-l: 0.7; --alpha-u: 1;">Y</span>
+
+                </div>
+
+                <div class="story_flex">
+
+                    <div id="tab_nav" class="story_menu">
+                        <button class="tab_bt active">웹퍼블리셔 지원동기</button>
+                        <button class="tab_bt">프로젝트 준비과정</button>
+                        <button class="tab_bt">포트폴리오 준비과정</button>
+                    </div>
+
+                    <div class="story_tab">
+                        <div class="tab-section-1 tab">
+                            <p>
+                                <i>1년 전</i> 코로나로 인해 갑작스럽게 퇴사하게 되어
+                                <i>미래에 대해 오랜 시간 고민</i>했던 시기가 있었습니다.
+                                우연한 기회에 현재 웹퍼블리셔와 개발자로 일하던 친구들과 
+                                해당 업무에 대해 대화를 하게 되었고 
+                                끊임없이 자기 개발을 하며 보람됨을 느끼는 친구들을 보니
+                                <i>전문적으로 배워보고 싶다는 생각</i>이 들어 
+                                고민 끝에 관련 직업훈련 교육기관에 등록하여
+                                <i>
+                                    반응형 웹 프론트엔드 개발 실무 양성과정에 참여 후 
+                                    웹퍼블리셔로 지원
+                                </i>하게 되었습니다.
+
+                            </p>
+                        </div>
+
+                        <div class="tab-section-2 tab" hidden>
+                            <p>
+                                프로젝트를 하나씩 준비하면서 많은 것을 배우고 느낄 수 있는 시간이였습니다. <br>
+                                특히 에몬스 프로젝트는 첫 프로젝트이다 보니 미흡한 점도 있지만 반응형 사이트의
+                                개념을 이해하고 배우는 뜻깊은 프로젝트였습니다. <br>
+                                안양도시공사 프로젝트는 관공서 사이트이다보니 웹접근성에 신경을 썼고  
+
+
+                            </p>
+                        </div>
+
+                        <div class="tab-section-3 tab" hidden>
+                            <p>
+                                이번 포트폴리오를 준비하면서 며칠 밤을 새워가며 수정작업을 하고
+                                디자인이나 콘텐츠 등을 바꿔가며 최대한 저를 보여드릴 수 있도록 노력하였습니다. <br>
+                                초반엔 기획했던 대로 작업물이 만족스럽지 못하여
+                                중간에 과감히 모든 디자인을 변경하고 처음부터 다시 시작하기도 하였고, 자바스크립트를 사용하여 동적인 모션을 적용할 때는
+                                어떤 원리로 어떻게 사이트에서 구현이 되는지 고민하고 배우면서 만들었습니다.
+                                 많은 심혈을 기울인 만큼 긍정적인 마음으로 봐주시면 감사드리겠습니다 :)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_bg4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 110">
+                <path d="M 0 0 L 1920 0 L 960 110 Z" fill="#f5f4fe"></path>
+            </svg>
+        </div>
+    </section><!-- 스토리 -->
+
+    <footer id="foot_wrap">
+        <h3 class="hide">footer</h3>
+
+        <div class="foot_contents">
+            <div class="foot_inner">
+                <div class="scroll_top">
+                    <svg class="scroll_top_svg" width="80" height="80" viewBox="0 0 135 126" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M67.5 64.3125C68.2388 64.3117 68.9705 64.4472 69.6529 64.7112C70.3354 64.9752 70.9553 65.3624 71.4769 65.8507L88.3519 81.6007C89.3909 82.5882 89.97 83.9186 89.9633 85.3026C89.9566 86.6866 89.3646 88.0121 88.316 88.9908C87.2675 89.9694 85.8473 90.522 84.3645 90.5282C82.8816 90.5345 81.4561 89.994 80.3981 89.0242L67.5 76.9863L54.6019 89.0245C53.5448 89.9987 52.1178 90.5431 50.6322 90.5387C49.1467 90.5343 47.7233 89.9815 46.6729 89.0011C45.6225 88.0207 45.0303 86.6922 45.0257 85.3057C45.0211 83.9192 45.6043 82.5873 46.6481 81.6007L63.5231 65.8507C64.0448 65.3624 64.6646 64.9752 65.3471 64.7112C66.0296 64.4472 66.7612 64.3117 67.5 64.3125V64.3125ZM67.5 35.4375C68.2388 35.4367 68.9705 35.5722 69.6529 35.8362C70.3354 36.1002 70.9553 36.4874 71.4769 36.9757L88.3519 52.7257C89.3909 53.7132 89.97 55.0436 89.9633 56.4276C89.9566 57.8116 89.3646 59.1371 88.316 60.1158C87.2675 61.0944 85.8473 61.647 84.3645 61.6532C82.8816 61.6595 81.4561 61.119 80.3981 60.1492L67.5 48.1113L54.6019 60.1495C53.5448 61.1237 52.1178 61.6681 50.6322 61.6637C49.1467 61.6593 47.7233 61.1065 46.6729 60.1261C45.6225 59.1457 45.0303 57.8172 45.0257 56.4307C45.0211 55.0442 45.6043 53.7123 46.6481 52.7257L63.5231 36.9757C64.0448 36.4874 64.6646 36.1002 65.3471 35.8362C66.0296 35.5722 66.7612 35.4367 67.5 35.4375V35.4375Z"
+                            fill="#ffffff" />
+                    </svg>
+                </div>
+
+                <div class="foot_coment">
+
+                    <p class="bigfont">LET'S WORK </p>
+                    <p class="bigfont">TOGETDER!</p>
+
+                    <p class="smallfont">
+                        <img src="./images/main/smartphone_icon.png" width="25" alt="smartphone">
+                        <a href="tel:010-7684-9019">010-7684-9019</a>
+                        <br>
+                        <img src="./images/main/mail_icon.png" width="25" alt="mail">
+                        <a href="mailto:ssujii0809@naver.com">ssujii0809@naver.com</a>
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="copy_box">
+            <div class="foot_copy">
+                <p class="address">index.html</p>
+                <p class="copy_text">Copyright &copy; 2022. Suji Heo All rights reserved.
+                </p>
+                <p class="KakaotalkID">
+                    <span class="Kakao_logo">
+                        <img src="./images/main/kakao_logo.png" width="25" alt="Kakaotalk">
+                    </span>
+                    ID : hj818he89 </p>
+            </div>
+        </div>
+        </div>
+
+    </footer><!-- 푸터 -->
+
+
+</body>
+
+
+</html>

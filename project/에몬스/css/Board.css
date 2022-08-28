@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; border: 0;}
+
+body{background-color: #fff; width: 100%;}
+
+#wrap{width:100%; max-width: 1000px; position: relative; margin:auto; font-family: 'Noto Sans KR', sans-serif;}
+
+h1{padding: 30px 0 100px 20px; font-size: 40px; color: #062C30;}
+
+.guide{position: relative;}
+.guide  li{list-style: none;}
+.guide .image-area{position: absolute; top:-90px; right: 150px; width:150px; height: 150px;}
+.guide .image-area img {width: 70px; height: 70px;}
+.guide .image-area button a{position: absolute; top:75px; right: 63px; width: 85px; height: 15px; padding: 5px 8px; 
+    background: #fff; border:solid 1px #777; text-decoration: none; color: #000; }
+.call1{position: absolute; top: -55px; left: 330px; font-size: 27px; font-weight: bold; color: #062C30;text-align: center;}
+.call1 img{position: absolute; top: 10px; left: -30px; width: 27px; height: 27px;} 
+.call2{color: #828282;text-align: center; padding-top: 30px; font-size: 20px;}
+.call3{ line-height: 2;color: #828282;text-align: center;margin-top: 30px;font-size: 17px;}
+.call1 a{padding-left: 50px;}
+
+.columns{position: relative;}
+.columns>div{float: left;font-size: 15px; color: #777; margin-left: 35px; margin-top: 100px;}
+.columns>div>button>a{position: absolute; top:88px; right: 80px; text-decoration: none; color: #000; 
+    border: #777 1px solid;padding: 5px 18px; background-color: #fff; font-size: 16px; }
+
+
+.list .data {margin-top: 170px;}
+.list .data li{margin: auto; height: 25px; padding: 10px 0; border-bottom: solid 1px #999; 
+    font-size: 17px;list-style: none; color: #000; }
+.list .data li div{float: left;}
+.list .data li div a{text-decoration: none; color: #000;}
+
+.list .data li div:nth-child(1){margin-left: 30px;}
+.list .data li div:nth-child(2){margin-left: 70px;}
+.list .data li div:nth-child(3){margin-left: 450px;}
+.list .data li div:nth-child(4){margin-left: 50px;}
+
+
+
+
+
+
+
+
+

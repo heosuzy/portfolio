@@ -1,0 +1,262 @@
+/* 태블릿 */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    #wrap { width: 740px; margin: 0 auto;}
+
+    /*------ topbar ------*/
+    #menu_1 {display: none;}
+
+    /*------ Search ------*/
+    #menu_2 { width: 100%; margin: 0 auto;}
+
+    /*------ 매장찾기 ------*/
+    #menu_2 .gnb_1 { width: 100%;}
+    #menu_2 .gnb_1 .offline { width: 60px; height: 18px; float: right; margin-right: 25px; line-height: 15px; font-size: 0.9em;}
+    #menu_2 .mo-icon { display: block; padding-top: 10px; cursor: pointer;}
+
+    /*------ 상단 로그인메뉴 ------*/
+    #menu_2 .gnb_1 .login {margin-top: 10px;}
+    #menu_2 .gnb_1 .login .none {display: none;}
+
+
+    /*------ 로고 ------*/
+    #menu_2 .logo_area { width: 100%; margin: 20px 0;}
+    #menu_2 .logo_area .logo>a { text-align: center; font-size: 2.3em;}
+    #menu_2 .logo_area .line_area .line { position: absolute; top: 7px; left: 40px; width: 45px;}
+    #menu_2 .logo_area .line_area .emons { position: absolute; top: 3px; right: 33px;}
+
+    /*------ pc네비게이션 ------ */
+    #sub-01 .pc_menu {display: none;}
+
+    /*------ 탭&모바일 네비 ------*/
+    #sub-01 #mo_menubg { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgb(0, 0, 0, 0.5); z-index: 90;}
+
+    #sub-01 #mo_menu { display: block; position: fixed; top: 0; left: -100%; width: 75%; height: 100%; z-index: 100; background-color: #fff;}
+    #sub-01 #mo_menu.on {left: 0;}
+    #sub-01 #mo_menu .mo_login { width: 100%; height: 200px;}
+    #sub-01 #mo_menu .mo_login .mo_logo {width: 100%;height: 150px;}
+    #sub-01 #mo_menu .mo_login .mo_logo>img:first-child { padding-top: 75px; width: 30%; height: 2px;}
+    #sub-01 #mo_menu .mo_login .mo_logo>img:last-child { width: 20px; position: absolute; top: 1%; right: 5%; opacity: 0.4; cursor: pointer;}
+    #sub-01 #mo_menu .mo_login .mo_logo>p { display: inline-block; font-size: 1.5em; font-weight: bold; margin-left: 10px; color: #062C30; letter-spacing: -1px;}
+
+    #sub-01 #mo_menu .mo_login .mo-nav01 { width: 100%; height: 50px; box-sizing: border-box;}
+    #sub-01 #mo_menu .mo_login .mo-nav01>ul{width: 100%; height: 50px;}
+    #sub-01 #mo_menu .mo_login .mo-nav01>ul>li { float: left; width: 33.33%; height: 50px; text-align: center;}
+    #sub-01 #mo_menu .mo_login .mo-nav01>ul>li>a { display: block; width: 100%; line-height: 50px; font-size: 1em; color: #999; letter-spacing: 0.5px;}
+    #sub-01 #mo_menu .mo_login .mo-nav01>ul>li>a:hover {color: #000;}
+
+    #sub-01 #mo_menu .mo_search { width: 100%; height: 100px; text-align: center;}
+    #sub-01 #mo_menu .mo_search>input { width: 50%; height: 28px; margin-top: 40px; background: url(../header_img/search.png) no-repeat center right; cursor: pointer; background-color: rgb(224, 223, 223, 0.3); border: 1px solid #ddd; padding: 3px;}
+    #sub-01 #mo_menu .mo_search>a { display: inline-block; position: relative; width: 25px; height: 25px; letter-spacing: -1px;}
+    #sub-01 #mo_menu .mo_search>a>img { position: absolute; top: 10px; left: 5px; width: 22px; height: 22px;}
+
+    #sub-01 #mo_menu .mo-nav02 { width: 100%; margin: 0 auto; margin-top: 20px;}
+    #sub-01 #mo_menu .mo-nav02>ul>li>div { width: 100%; margin: 0 auto;}
+    #sub-01 #mo_menu .mo-nav02>ul>li>div>a { display: block; width: 100%; height: 80px; line-height: 80px; background: url(../img/more.svg) no-repeat 95%; border-bottom: 1px solid #ddd; box-sizing: border-box; background-color: #062C30; font-size: 1em; color: #fff; font-weight: 400; padding-left: 20px; letter-spacing: -1px;}
+    #sub-01 #mo_menu .mo-nav02>ul>li>div>a:hover{ background-color: lightyellow; color: #000;}
+    #sub-01 #mo_menu .mo-nav02>ul>li .mo_sub>li>a { display: block; height: 40px; line-height: 40px; border-bottom: 1px solid #fff; padding-left: 70px; font-size: 15px; font-weight: 400; background:#ddd; color: #000; letter-spacing: 1px;}
+    #sub-01 #mo_menu .mo-nav02>ul>li .mo_sub>li>a:hover{background-color: lightyellow;}
+    #sub-01 #mo_menu .mo-nav02>ul>li .mo_sub>li {display: none;}
+
+    #sub-01 #mo_menu .mo-call { width: 100%; height: 200px;}
+    #sub-01 #mo_menu .mo-call>div { width: 100%; height: 200px; text-align: center; padding-top: 50px;}
+    #sub-01 #mo_menu .mo-call>div>p { padding: 20px; font-size: 1.2em; letter-spacing: -1px;}
+    #sub-01 #mo_menu .mo-call>div>a { display: block; color: #999; padding: 20px; letter-spacing: -1px; font-size: 1.3em;}
+    #sub-01 #mo_menu .mo-call>div>a:hover {color: #000;}
+
+    /*------ 배너 ------*/
+    #sub-02 { width: 100%; height: 335px; margin-top: 40px; margin: 0 auto;}
+    #sub-02 .banner { width: 100%; height: 335px; margin-top: 40px; position: relative;}
+    #sub-02 .banner ul.pc-banner {height: 335px;}
+    #sub-02 .banner ul.pc-banner>li {height: 335px;}
+    #sub-02 .banner ul.pc-banner>li>a>img {height: 335px;}
+    #sub-02 .banner .view_BT {display: none;}
+
+    #sub-02 .tab_nav { display: block; width: 100%; height: 30px; margin: 0; padding: 0;}
+    #sub-02 .tab_nav .tab_nav_list { float: left; width: 25%; text-align: center; line-height: 30px; margin: 0; padding: 0; box-sizing: border-box; border-left: 1px solid #bbb; background-color: #ddd;}
+    #sub-02 .tab_nav .tab_nav_list:hover {background-color: #062C30;}
+    #sub-02 .tab_nav .tab_nav_list:first-child {border-left: none;}
+    #sub-02 .tab_nav .tab_nav_list>a { display: block; width: 100%; font-size: 0.875em; font-weight: 300; color: #062C30;}
+    #sub-02 .tab_nav .tab_nav_list>a:hover {color: #fff;}
+
+    /*------- NEW -------*/
+    #sub-03 { width: 100%; height: 680px;}
+    #sub-03 div>h3 { margin-bottom: 5px; font-size: 1.2em; font-weight: 400;}
+    #sub-03 .NEWimg { width: 100%; height: 640px; margin: auto;}
+    #sub-03 .NEWimg>div { width: calc(50% - 20px); padding: 0; margin: 10px 10px;}
+    #sub-03 .NEWimg>div:first-child {margin-left: 10px;}
+
+    /*------- best -------*/
+    #sub-04 { width: 100%; height: 320px; margin-top: 20px; margin-bottom: 10px; }
+    #sub-04>div>h3 { margin-top: 20px; margin-bottom: 5px; font-size: 1.2em; font-weight: 400;}
+    #sub-04 .best-images { width: 100%; height: 280px; margin: 0 auto;}
+    #sub-04 .best-images .swiper-wrapper .swiper-slide>img { width: 100%; height: 300px;}
+
+    /*------- Drama -------*/
+    #sub-05 { width: 100%; height: 400px; margin-top: 20px;}
+    #sub-05>.Drama_text {font-size: 1.2em;font-weight: 400;}
+    #sub-05 .Drama>div { width: 30%; margin: 0; padding: 0;}
+    #sub-05 .Drama>div>a>img { width: 220px; height: 300px;}
+    #sub-05 .Drama .Dramaimg-01 {float: left;}
+    #sub-05 .Drama .Dramaimg-02 {margin-left: 35px;}
+    #sub-05 .Drama .Dramaimg-03 {float: right;}
+
+    /*------- CF -------*/
+    #sub-06 { width: 100%; margin-top: 20px;}
+    #sub-06 .CF .cf_text {width: 100%;height: 60px;}
+    #sub-06 .CF .cf_text>h3 { margin-top: 20px; margin-left: 100px; margin-bottom: 5px; font-size: 1.2em; font-weight: 400;}
+    #sub-06 .CF .cf_text>p { margin-top: 25px; margin-bottom: 5px; font-size: 0.95em;}
+    #sub-06 .CF .cf_text>span { margin-top: 25px; margin-right: 100px;}
+    #sub-06 .CF .cf_vid { width: 100%; margin: 0; text-align: center;}
+
+    /*------- footer -------*/
+    footer { width: 100%; height: 240px; margin: 0; padding: 0;}
+    #footer_box { width: 98%; height: 240px; font-size: 0.689em;}
+    #footer_box .left_con h3 {font-size: 1.8em;}
+    #footer_box .left_con { width: 33%; height: 220px; margin-top: 20px;}
+    #footer_box .center_con { width: 30%; margin-top: 35px; padding-left: 3%; height: 220px;}
+    #footer_box .right_con, .side_con { width: 20%; margin-top: 35px; height: 220px;}
+    #footer_box .side_con { width: 10%; height: 220px;}
+    #footer_box .right_con .sns_BT {padding-top: 55px;}
+    #footer_box .right_con .sns_BT>li>a>img { width: 30px; height: 30px;}
+    #footer_box .right_con .side_BT { padding-top: 15px; padding-left: 5px;}
+    #footer_box .side_con .side_BT .SSL>a>img { width: 80px; height: 80px;}
+    #footer_box .side_con .TOP { position: fixed; top: 93%; right: 2%; z-index: 50;}
+    #footer_box .copybox {clear: both;}
+    #footer_box .copybox .copyright {margin-top: 20px;}
+
+}
+
+
+
+/* 모바일 */
+@media screen and (min-width:375px) and (max-width:767px) {
+    
+    #wrap { width: 350px; margin: 0 auto;}
+    #menu_1 {display: none;}
+
+    /*------ 검색바 ------*/
+    #menu_2 { width: 100%; margin: 0 auto;}
+
+    /*------ 매장찾기 ------*/
+    #menu_2 .gnb_1 {width: 100%;}
+    #menu_2 .gnb_1 .offline { width: 48px; height: 15px; float: right; margin-top: 18px; margin-right: 40px; line-height: 9px; }
+    #menu_2 .gnb_1 .offline a span {font-size: 0.8em;}
+    #menu_2 .mo-icon { display: block; padding: 15px; cursor: pointer;}
+
+    /*------ 상단 로그인메뉴 ------*/
+    .none {display: none;}
+
+    #menu_2 .gnb_1 .login {margin-top: 10px;}
+    #menu_2 .gnb_1 .login #icon_2 { position: absolute; top: 10px; right: 0px; width: 17px; height: 17px;}
+
+    /*------ 로고 ------*/
+    #menu_2 .logo_area { width: 100%; margin: 0;}
+    #menu_2 .logo_area .logo>a { text-align: center; font-size: 1.7em;} 
+    #menu_2 .logo_area .line_area .line { position: absolute; top: 7px; left: 50px; width: 30px;}
+    #menu_2 .logo_area .line_area .emons { width: 35px; position: absolute; top: 3px; right: 45px;}
+
+    /*------ pc네비게이션 ------ */
+    #sub-01 .pc_menu {display: none;}
+
+    /*------ 탭&모바일 네비 ------*/
+    #sub-01 #mo_menubg { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgb(0, 0, 0, 0.5); z-index: 90;}
+    
+    #sub-01 #mo_menu { display: block; position: fixed; top: 0; left: -100%; width: 80%; height: 100%; z-index: 100; background-color: #fff;}
+    #sub-01 #mo_menu.on {left: 0;}
+    #sub-01 #mo_menu .mo_login { width: 100%; height: 200px;}
+    #sub-01 #mo_menu .mo_login .mo_logo { width: 100%; height: 150px;}
+    #sub-01 #mo_menu .mo_login .mo_logo>img:first-child { padding-top: 75px; width: 30%; height: 2px;}
+    #sub-01 #mo_menu .mo_login .mo_logo>img:last-child { width: 20px; position: absolute; top: 1%; right: 5%; opacity: 0.4; cursor: pointer;}
+    #sub-01 #mo_menu .mo_login .mo_logo>p { display: inline-block; font-size: 1.5em; font-weight: bold; margin-left: 10px; color: #062C30; letter-spacing: -1px;}
+
+    #sub-01 #mo_menu .mo_login .mo-nav01 { width: 100%; height: 50px; box-sizing: border-box;}
+    #sub-01 #mo_menu .mo_login .mo-nav01>ul>li { float: left; width: 33.33%; height: 50px; text-align: center;}
+    #sub-01 #mo_menu .mo_login .mo-nav01>ul>li>a { display: block; width: 90%; line-height: 50px; font-size: 0.95em; color: #999; letter-spacing: -1px;}
+    #sub-01 #mo_menu .mo_login .mo-nav01>ul>li>a:hover {color: #000;}
+
+    #sub-01 #mo_menu .mo_search { width: 100%; height: 80px; text-align: center;}
+    #sub-01 #mo_menu .mo_search>input { width: 60%; height: 25px; margin-top: 20px; background: url(../header_img/search.png) no-repeat center right; cursor: pointer; background-color: rgb(224, 223, 223, 0.3); border: 1px solid #ddd; padding: 3px;}
+    #sub-01 #mo_menu .mo_search>a { display: inline-block; position: relative; width: 25px; height: 25px; letter-spacing: -1px; }
+    #sub-01 #mo_menu .mo_search>a>img { position: absolute; top: 10px; left: 5px; width: 22px; height: 22px;}
+
+    #sub-01 #mo_menu .mo-nav02 { width: 100%; margin: 0 auto; margin-top: 20px;}
+    #sub-01 #mo_menu .mo-nav02>ul>li>div { width: 100%; margin: 0 auto;}
+    #sub-01 #mo_menu .mo-nav02>ul>li>div>a { display: block; width: 100%; height: 70px; line-height: 70px; background: url(../img/more.svg) no-repeat 95%; border-bottom: 1px solid #ddd; box-sizing: border-box; background-color: #062C30; font-size: 0.95em; color: #fff; font-weight: 400; padding-left: 20px; letter-spacing: -1px;}
+    #sub-01 #mo_menu .mo-nav02>ul>li>div>a:hover{ background-color: lightyellow; color: #000;}
+ 
+    #sub-01 #mo_menu .mo-nav02>ul>li .mo_sub>li>a { display: block; height: 35px; line-height: 35px; border-bottom: 1px solid #fff; padding-left: 70px; font-size: 0.9em; font-weight: 400; background: #ddd; color: #000; letter-spacing: -1px;}
+    #sub-01 #mo_menu .mo-nav02>ul>li .mo_sub>li>a:hover{ background-color: lightyellow;}
+    #sub-01 #mo_menu .mo-nav02 ul li .mo_sub li {display: none;}
+
+    #sub-01 #mo_menu .mo-call { width: 100%; height: 200px;}
+    #sub-01 #mo_menu .mo-call>div { width: 100%; height: 200px; text-align: center; padding-top: 25px;}
+    #sub-01 #mo_menu .mo-call>div>p { padding: 20px; font-size: 1.2em; letter-spacing: -1px;}
+    #sub-01 #mo_menu .mo-call>div>a { display: block; color: #999; padding: 20px; letter-spacing: -1px; font-size: 1.3em;}
+    #sub-01 #mo_menu .mo-call>div>a:hover {color: #000;}
+
+    /*------ 배너 ------*/
+    #sub-02 { width: 100%; height: 380px; margin-top: 40px; margin: 0 auto;}
+
+    #sub-02 .banner {display: none;}
+    #sub-02 .banner .view_BT {display: none;}
+
+    #sub-02 .mo-banner { position: relative; display: block; width: 100%; height: 380px; margin-top: 40px; overflow: hidden;}
+    #sub-02 .mo-banner>ul>li { width: 100%; height: 380px; position: absolute; top: 0; box-sizing: border-box;}
+    #sub-02 .mo-banner>ul>li:nth-child(2) {left: 100%;}
+    #sub-02 .mo-banner>ul>li:nth-child(3) {left: 100%;}
+    #sub-02 .mo-banner>ul>li>a>img { width: 100%; height: 380px;}
+
+    /*------- NEW -------*/
+    #sub-03 { width: 100%; height: 1300px; margin-top: 20px;}
+    #sub-03 div>h3 { margin: 0 auto; padding: 20px 0; text-align: center; font-size: 1.15em; font-weight: 500;}
+    #sub-03 .NEWimg { width: 100%; height: 640px; margin: auto;}
+    #sub-03 .NEWimg>div { width: calc(100% - 20px); padding: 0; margin: 10px 10px;}
+    #sub-03 .NEWimg>div:first-child { margin-top: 0; margin-left: 10px;}
+
+    /*------- best -------*/
+    #sub-04 { width: 100%; height: 360px; margin-top: 0; margin-bottom: 0;}
+    #sub-04>div>h3 { margin: 0 auto; padding: 20px 0; text-align: center; font-size: 1.15em; font-weight: 500;}
+    #sub-04 .best-images { width: 94%; height: 280px; margin: 0 auto; }
+    #sub-04 .best-images .swiper-wrapper .swiper-slide>img { width: 100%; height: 280px;}
+
+    /*------- Drama -------*/
+    #sub-05 { width: 100%; height: 400px; margin-top: 0;}
+    #sub-05 .Drama_text { margin: 0 auto; padding: 40px 0; text-align: center; font-size: 1.15em; font-weight: 500;}
+    #sub-05 .Drama>div { width: 50%; margin: 0; padding: 0;}
+    #sub-05 .Drama>div>a>img { width: 95%; height: 100%;}
+    #sub-05 .Drama .Dramaimg-01 {text-align: center;}
+    #sub-05 .Drama .Dramaimg-02 {text-align: center;}
+    #sub-05 .Drama .Dramaimg-03 {display: none;}
+    #sub-05 .Drama div span { font-size: 0.8em; text-align: center; line-height: 1.5;}
+
+    /*------- CF -------*/
+
+    #sub-06 { width: 100%; margin-top: 0; margin-bottom: 50px; clear: both; height: 400px;}
+    #sub-06 .CF { margin: 0 auto; height: 400px;}
+    #sub-06 .cf_text { width: 100%; height: 60px; margin: 5px 0 15px 0;}
+    #sub-06 .cf_text>h3 { margin-top: 20px; margin-left: 35px; margin-bottom: 5px; font-size: 1.15em; font-weight: 500;}
+    #sub-06 .cf_text>p { margin-top: 25px; margin-bottom: 5px; font-size: 0.8em;}
+    #sub-06 .CF .cf_text>span {display: none;}
+    #sub-06 .CF .cf_vid { clear: both; width: 100%; margin: 0 auto; text-align: center; overflow: hidden;}
+    #sub-06 .CF .cf_vid iframe {width: 100%;}
+
+    /*------- footer -------*/
+    footer { width: 100%; height: 530px; margin: 0; padding: 0; clear: both;}
+    #footer_box { position: relative; width: 98%; height: 530px; font-size: 0.689em; padding-left: 20px;}
+    #footer_box .left_con h3 {font-size: 1.5em;}
+    #footer_box .left_con { width: 100%; height: 140px; margin-top: 20px;}
+    #footer_box .center_con { width: 100%; height: 160px;}
+    #footer_box .center_con .txt2>strong {font-size: 1.5em;}
+    #footer_box .right_con, .side_con { width: 100%; height: 100px;}
+    #footer_box .right_con .sns_BT>li {width: 100%;}
+    #footer_box .right_con .sns_BT>li>a { width: 23px; height: 23px;}
+    #footer_box .right_con .sns_BT>li>a>img { width: 23px; height: 23px;}
+    #footer_box .right_con .sns_BT {padding-top: 55px;}
+    #footer_box .side_con .side_BT .SSL { float: right; position: relative;}
+    #footer_box .side_con .side_BT .SSL>a>img { position: absolute; top: -50px; right: 100px; width: 70px; height: 70px;}
+    #footer_box .side_con .TOP {width: 40px;height: 32px;top: 90%;right: 5%;}
+    #footer_box .copybox { position: absolute; bottom: 0; left: 0; width: 100%;}
+    #footer_box .copybox .copyright {font-size: 0.6em;}
+
+}
