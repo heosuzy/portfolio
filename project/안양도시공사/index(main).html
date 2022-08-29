@@ -28,7 +28,7 @@
         }
 
         function closeWin() {
-            if (document.notice_form.chkbok.checkbox) {
+            if (document.notice_form.chkbok.checked === true) {
                 setCookie("popupbox", "done", 1);
             }
             document.all['popupbox'].style.visibility = "hidden";
@@ -55,7 +55,7 @@
             <!-- 팝업스크립트 -->
 
             <script>
-                cookiedata = document.cookie; //브라우저에서도 쿠키에 접근가능하도록
+                cookiedata = document.cookie;
                 if (cookiedata.indexOf("popupbox=done") < 0) {
                     document.all['popupbox'].style.visibility = "visible";
 

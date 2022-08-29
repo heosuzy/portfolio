@@ -67,7 +67,7 @@ window.onload = function () {
                 instance.destroy();
             }
         })
-        .type("PORTFOLIO WORKS BY HEO SUJI").go();
+        .type("PORTFOLIO WORKS BY HEO SUZY").go();
 
     new TypeIt(".main_title1", {
             speed: 70,

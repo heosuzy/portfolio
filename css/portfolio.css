@@ -653,7 +653,7 @@ section {
     cursor: url(../images/main/www.cur), auto;
 }
 
-.project_popup2 .project_contents2 .auc .auc_ul .auc_li>a>img:hover {
+.project_popup2 .project_contents2 .auc .auc_ul .auc_li>a:hover>img {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
@@ -921,7 +921,7 @@ section {
     cursor: url(../images/main/www.cur), auto;
 }
 
-.project_popup3 .project_contents3 .socar .socar_ul .socar_li>a>img:hover {
+.project_popup3 .project_contents3 .socar .socar_ul .socar_li>a:hover>img {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
 }
@@ -1089,7 +1089,7 @@ section {
     height: 35px;
     margin-top: 10px;
     line-height: 35px;
-  
+
 
 }
 
@@ -1107,13 +1107,13 @@ section {
 }
 
 .project_popup4 .project_contents4 .introduce_box4 .project_comment4 .introduce_text .page_box a:hover {
-    background-color: #ffebeb;
-    border: 1px #ffebeb solid;
+    background-color: #ff6060;
+    border: 1px #ff6060 solid;
     border: 0;
-    color: #020817;
+    color: #ffffff;
 }
 
-.project_popup4 .project_contents4 .introduce_box4 .project_comment4 .auc_down_box {
+.project_popup4 .project_contents4 .introduce_box4 .project_comment4 .mm_down_box {
     width: 70%;
     padding: 5px 0;
     margin: auto;
@@ -1158,11 +1158,11 @@ section {
     vertical-align: middle;
 }
 
-.project_popup4 .project_contents4 .auc {
+.project_popup4 .project_contents4 .mm {
     width: 60%;
 }
 
-.project_popup4 .project_contents4 .auc .auc_ul {
+.project_popup4 .project_contents4 .mm .mm_ul {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1173,27 +1173,28 @@ section {
     overflow: hidden;
 }
 
-.project_popup4 .project_contents4 .auc .auc_ul .auc_li {
+.project_popup4 .project_contents4 .mm .mm_ul .mm_li {
     width: 100%;
     height: 100%;
     margin-left: 10px;
 }
 
-.project_popup4 .project_contents4 .auc .auc_ul .auc_li>a {
+.project_popup4 .project_contents4 .mm .mm_ul .mm_li>a {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.project_popup4 .project_contents4 .auc .auc_ul .auc_li>a>img {
+.project_popup4 .project_contents4 .mm .mm_ul .mm_li>a>img {
     position: absolute;
     top: 30px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     cursor: url(../images/main/www.cur), auto;
 }
 
-.project_popup4 .project_contents4 .auc .auc_ul .auc_li>a>img:hover {
-    transform: scale(1.1);
+.project_popup4 .project_contents4 .mm .mm_ul .mm_li>a:hover>img {
+    transform: scale(1.1) translateX(-45%);
     transition: all 0.5s ease-in-out;
 }
 
@@ -2102,7 +2103,7 @@ section {
     font-family: 'noto-medium';
     color: #020817;
     cursor: pointer;
-    
+
 }
 
 #story_wrap .story_flex .story_menu>button.active {
@@ -2132,20 +2133,22 @@ section {
 
 #story_wrap .story_tab .tab p {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'noto-Regular';
     text-align: left;
     line-height: 50px;
     letter-spacing: -1px;
-    color: rgb(2, 8, 23,.7);
+    color: rgb(2, 8, 23, .7);
     box-sizing: border-box;
 }
-#story_wrap .story_tab .tab p i{
+
+#story_wrap .story_tab .tab p i {
     text-decoration: underline;
     color: #000000;
     font-family: 'noto-medium';
 
 }
+
 #story_wrap .section_bg4 {
     width: 100%;
     height: 100px;
@@ -2261,8 +2264,7 @@ section {
     width: 100%;
     height: 50px;
     margin-top: 15%;
-    /*수정하기 */
-    background: url(../images/main/QRCodeImg.png) no-repeat right;
+    background: url(../images/main/QRCodeImg.jpg) no-repeat right;
     background-size: 50px;
     font-family: 'Montserrat-Bold';
     color: #ffffff;
@@ -2292,7 +2294,7 @@ section {
 #foot_wrap .foot_copy {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     max-width: 1200px;
     height: 100%;
@@ -2305,6 +2307,7 @@ section {
     font-family: 'Montserrat-Light';
     color: #eefaff;
     letter-spacing: -0.5px;
+    font-size: .9em;
 }
 
 #foot_wrap .foot_copy .KakaotalkID .Kakao_logo>img {
